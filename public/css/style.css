@@ -1,0 +1,55 @@
+.st-font{
+    font-family: 'Satisfy', cursive;
+}
+html,
+body{
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+
+
+.nav{
+    padding: 5px;
+}
+a.nav-link {
+    color: whitesmoke;
+    line-height: 1.5;
+  }
+  
+
+a.nav-link:hover{
+    color:black;
+    background-color: #e9cd79;
+}
+
+a.nav-link.active {
+    color: black;
+    font-weight: 500;
+    background-color: #ffc107;
+
+  }
+  
+  a.nav-link.active:focus {
+    box-shadow: none; 
+  }
+   
+.info{
+    color:whitesmoke !important;
+}
+
+.i-color{
+    color:chartreuse;
+}
+
+.ss-color{
+    color:silver;
+}
+
+.col-sm-4{
+    margin-bottom: 5rem;;
+}
+
